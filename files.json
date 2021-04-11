@@ -1,22 +1,39 @@
 {
-    "Items":[
-       {
-          "Url":"https://aka.ms/vs/16/release/vc_redist.x64.exe",
-          "Filename": "vc_redist.exe",
-          "Arguments":"/install /quiet /norestart",
-          "IsArchive":false
-       },
-       {
-         "Url":"https://raw.githubusercontent.com/AleksaDjordjic/PriesTrackerReleases/master/AddExclusion.cmd",
-         "Filename": "AddExclusion.cmd",
-         "Arguments":"",
-         "IsArchive":false
+   "Items":[
+      {
+         "Url": "https://aka.ms/vs/16/release/vc_redist.x64.exe",
+         "Filename": "vc_redist.exe",
+         "Arguments": "/install /quiet /norestart",
+         "IsArchive": false,
+         "CopyToApp": false
       },
-       {
-        "Url":"https://github.com/AleksaDjordjic/PriesTrackerReleases/blob/master/Releases/Tracker.0.4.0.zip?raw=true",
-        "Filename": "Tracker.zip",
-        "Arguments":"",
-        "IsArchive":true
-       }
+      {
+         "Url": "https://raw.githubusercontent.com/AleksaDjordjic/PriesTrackerReleases/master/AddExclusion.cmd",
+         "Filename": "AddExclusion.cmd",
+         "Arguments": "",
+         "IsArchive": false,
+         "CopyToApp": false
+      },
+      {
+         "Url": "https://raw.githubusercontent.com/AleksaDjordjic/PriesTrackerReleases/master/Pries_Logo.ico",
+         "Filename": "Pries_Logo.ico",
+         "Arguments": "",
+         "IsArchive": false,
+         "CopyToApp": true
+      },
+      {
+         "Url": "https://raw.githubusercontent.com/AleksaDjordjic/PriesTrackerReleases/master/Uninstall.cmd",
+         "Filename": "Uninstall.cmd",
+         "Arguments": "",
+         "IsArchive": false,
+         "CopyToApp": true
+      },
+      {
+         "Url": "https://github.com/AleksaDjordjic/PriesTrackerReleases/blob/master/Releases/Tracker.0.4.0.zip?raw=true",
+         "Filename": "Tracker.zip",
+         "Arguments": "",
+         "IsArchive": true,
+         "CopyToApp": false
+      }
     ]
  }
