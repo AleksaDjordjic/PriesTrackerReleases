@@ -13,7 +13,7 @@
          "IsArchive":false
       },
        {
-        "Url":"https://github.com/AleksaDjordjic/PriesTrackerReleases/blob/master/Releases/Tracker.{version}.zip?raw=true",
+        "Url":"https://github.com/AleksaDjordjic/PriesTrackerReleases/blob/master/Releases/Tracker.0.4.0.zip?raw=true",
         "Filename": "Tracker.zip",
         "Arguments":"",
         "IsArchive":true
