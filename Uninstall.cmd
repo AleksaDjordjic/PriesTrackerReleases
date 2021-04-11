@@ -1,7 +1,7 @@
 @echo off
 
 echo Stopping tracker...
-taskkill /IM "%LocalAppData%\PriesTracker\app\Tracker.exe" >nul 2>&1
+taskkill /F /IM "%LocalAppData%\PriesTracker\app\Tracker.exe" >nul 2>&1
 
 echo Removing registry records...
 reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\SCS Software\Euro Truck Simulator 2\Plugins" /v PriesTracker /f >nul 2>&1
