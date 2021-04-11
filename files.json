@@ -1,0 +1,22 @@
+{
+    "Items":[
+       {
+          "Url":"https://aka.ms/vs/16/release/vc_redist.x64.exe",
+          "Filename": "vc_redist.exe",
+          "Arguments":"/Q",
+          "IsArchive":false
+       },
+       {
+         "Url":"https://raw.githubusercontent.com/AleksaDjordjic/PriesTrackerReleases/master/AddExclusion.cmd",
+         "Filename": "AddExclusion.cmd",
+         "Arguments":"",
+         "IsArchive":false
+      },
+       {
+        "Url":"https://github.com/AleksaDjordjic/PriesTrackerReleases/blob/master/Releases/Tracker.{version}.zip?raw=true",
+        "Filename": "Tracker.zip",
+        "Arguments":"",
+        "IsArchive":true
+       }
+    ]
+ }
